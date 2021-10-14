@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArraysTest {
+class ArrayTest {
     @ParameterizedTest
     @MethodSource("changeArrayParams")
     void changeArray(int[] in, int [] out) {
